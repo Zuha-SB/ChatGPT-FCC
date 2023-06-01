@@ -1,11 +1,11 @@
-const API_KEY = "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"
+const API_KEY = "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"
 
 async function fetchData() {
     const response = await fetch("https://api.openai.com/v1/completions", {
         method: "POST",
         headers: {
             Authorization: `Bearer ${API_KEY}`,
-            "Content-Type": "aplication/json"
+            "Content-Type": "application/json"
         },
         body: JSON.stringify({
             model: "text-davinci-003",
