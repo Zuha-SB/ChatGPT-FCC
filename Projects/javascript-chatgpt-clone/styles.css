@@ -8,7 +8,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: gray;
     display: flex;
 }
 
@@ -19,7 +19,7 @@ h1 {
 }
 
 .side-bar {
-    background-color: gray;
+    background-color: darkgray;
     width: 244px;
     height: 100vh;
     display: flex;
