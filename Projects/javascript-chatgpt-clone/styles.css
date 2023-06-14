@@ -103,3 +103,7 @@ button {
     flex-direction: column;
     height: 100%;
 }
+
+.history p {
+    cursor: pointer;
+}
