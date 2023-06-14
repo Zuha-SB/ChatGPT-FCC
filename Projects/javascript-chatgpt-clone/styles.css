@@ -89,3 +89,9 @@ button {
     padding: 10px;
     margin: 10px;
 }
+
+.nav {
+    border-top: solid 0.5px rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    margin: 10px;
+}
