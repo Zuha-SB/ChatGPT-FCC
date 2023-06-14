@@ -17,3 +17,12 @@ h1 {
     font-weight: 600;
     padding: 200px 0;
 }
+
+.side-bar {
+    background-color: gray;
+    width: 244px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
