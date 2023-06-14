@@ -95,3 +95,11 @@ button {
     padding: 10px;
     margin: 10px;
 }
+
+.history {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
