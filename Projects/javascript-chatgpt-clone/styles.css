@@ -70,6 +70,14 @@ input:focus {
 }
 
 .input-container {
+    position: relative;
     width: 100%;
     max-width: 650px;
+}
+
+.input-container #submit {
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    cursor: pointer;
 }
