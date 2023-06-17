@@ -8,7 +8,24 @@ const App = () => {
           <p>Made by Zuha</p>
         </nav>
       </section>
-      <section className="main"></section>
+      <section className="main">
+        <h1>ZuhaGPT</h1>
+        <ul className="feed">
+
+        </ul>
+        <div className="bottom-section">
+          <div className="input-container">
+            <input/>
+            <div id="submit">➢</div>
+          </div>
+          <p className="info">
+            Chat GPT version number and goal statement. 
+            This is a filler statement to take up space 
+            for testing and viewing purposes. Hopefully 
+            this works.
+          </p>
+        </div>
+      </section>
     </div>
   )
 }
